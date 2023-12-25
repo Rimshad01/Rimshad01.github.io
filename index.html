@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	  <link rel="icon" href="R.png" type="image/png"/>
     <title>Rimshad</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
@@ -142,6 +143,7 @@
     </style>
   </head>
   <body class="bg-black">
+    <div class="cursor" data-cursor></div>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-black fixed-top p-4">
       <div class="container">
@@ -186,7 +188,6 @@
       </div>
     </nav>
     <!-- Navbar End -->
-    <div class="cursor" data-cursor></div>
 
     <!-- fist Section -->
     <div class="col-12" id="home" style="margin-top: 12rem;">
@@ -268,10 +269,10 @@
       <div id="carouselExampleCaptions" class="carousel slide mt-3">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="4.jpg" class="d-block w-100" style="height: 50%;" alt="...">
+            <img src="4.png" class="d-block w-100" style="height: 50%;" alt="...">
             <div class="carousel-caption col-md-6 col-lg-6 col-sm-6 col-6 mx-auto" style="right: -250px;">
               <h5 class="fw-bold">Fresher <br> Web Developer</h5>
-              <p><small class="fw-lighter text-center w-25">Hello, I’m Rimshad Ahamed, a passionate and driven web developer dedicated to crafting immersive digital experiences through innovative web applications. With a fervor for technology and a relentless pursuit of excellence, I embark on each project fueled by a desire to create impactful solutions.</small></p>
+              <p><small class="fw-lighter text-center w-25">Hello, I’m Rimshad Ahamed, a passionate and driven web developer dedicated to crafting immersive digital experiences through innovative web applications. With a fervor for technology and a relentless pursuit of excellence, I embark on each project fueled by a desire to create impactful solutions.and the prerten out of my knowladge in thins field to day i was making the potfolio to my self introduce the others</small></p>
             </div>
           </div>
       </div>
@@ -286,7 +287,7 @@
             <span class="n">Explore</span> My
           </h3>
           <h3 class="text-center text-white" style="font-size: 40px; font-weight: 700">
-            Education / Languages
+            Education / Qualification
           </h3>
         </div>
       </div>
@@ -303,10 +304,12 @@
           </div>
           <div class="col-md-6 mt-3">
             <div class="details-container">
-              <h3 class="text-white fw-bold">Language</h5>
-                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> English</p></li>
-                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> Sinhala</p></li>
-                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> Tamil</p></li>
+              <h3 class="text-white fw-bold">Qualification</h5>
+                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> PHP</p></li>
+                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> Bootstrap</p></li>
+                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> JAvascript</p></li>
+                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> JAvascript</p></li>
+                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> JAvascript</p></li>
             </div>
           </div>
         </div>
@@ -405,8 +408,8 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-sm-6 d-flex d w-50 justify-content-center">
-                <i class="me-2 s bi bi-envelope-fill"></i>
-                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" class="nav-link text-center b fw-bold w-50">rimshadbr@gmail.com</a>
+                <i id="copyIcon" class="me-2 s bi bi-envelope-fill"></i>
+                <span id="textcopy" class="text-center b fw-bold w-50">rimshadbr@gmail.com</span>
               </div>
               <div class="col-sm-6 d-flex w-50 d justify-content-center">
                 <i class="me-2 s bi bi-linkedin"></i>

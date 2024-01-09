@@ -66,8 +66,8 @@ html{
 #preloader{
     background: #000 url(/21.gif) no-repeat center center;
     background-size: 15%;
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    position: fixed;
+    position: absolute;
     z-index: 100;
 }

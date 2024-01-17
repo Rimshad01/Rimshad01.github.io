@@ -18,139 +18,11 @@
     />
     <link rel="stylesheet" href="css/style.css" />
 
-    <style>
-      
-      .dn {
-        border: 2px solid #6610f2;
-        color: #fff;
-      }
-      .dn:hover {
-        background-color: #6610f2;
-        color: #fff;
-      }
-
-      .bn {
-        background-color: #2a2a2a;
-        color: #fff;
-      }
-
-      .bn:hover {
-        background-color: #6610f2;
-        color: #fff;
-      }
-
-      .details-container {
-        padding: 1.5rem;
-        flex: 1;
-        border-radius: 2rem;
-        border: rgb(53, 53, 53) 0.1rem solid;
-        border-color: rgb(163, 163, 163);
-        text-align: center;
-        height: 17rem;
-      }
-      .details-container2 {
-        padding: 1.5rem;
-        flex: 1;
-        border-radius: 2rem;
-        border: rgb(53, 53, 53) 0.1rem solid;
-        border-color: rgb(163, 163, 163);
-        text-align: center;
-        height: 35rem;
-      }
-
-      .details-container3 {
-        padding: 1.5rem;
-        flex: 1;
-        border-radius: 2rem;
-        border: rgb(53, 53, 53) 0.1rem solid;
-        border-color: rgb(163, 163, 163);
-        text-align: center;
-        height: 4.5rem;
-      }
-      
-      .nav-link{
-        color: #585C5E;
-      }
-
-      .nav-link:hover{
-        color: #6610f2;
-        transition: 0.3s ease;
-      }
-
-      .n,.n:hover{
-        color: #6610f2;
-      }
-
-      .b:hover{
-        text-decoration: underline;
-        text-underline-offset: 0.5rem;
-        text-decoration-color: #6610f2;
-        color: #6610f2;
-      }
-
-      .b{
-        color: #fff;
-      }
-
-      .carousel-caption{
-        margin: 25%;
-      }
-
-      .carousel-caption h5{
-        font-size: 30px;
-      }
-
-      .carousel-caption p small{
-        font-size: 20px;
-      }
-
-      @media (max-width: 800px) {
-        .bb{
-          width: 150px;
-        }
-
-        .ss{
-          font-size: 12px;
-        }
-      }
-
-      .s{
-        color: #fff;
-      }
-
-      @media (max-width: 477px) {
-        .carousel-caption{
-        top: -50px;
-        left: -120px;
-      }
-
-      .b{
-        font-size: 10px;
-        margin-top: 4px;
-      }
-
-      .carousel-caption h5{
-        font-size: 16px;
-      }
-
-      .carousel-caption p small{
-        font-size: 12px;
-      }
-
-      .d a{
-        font-size: 12px;
-      }
-
-      .bb{
-        width: 50%;
-      }
-      }
-    </style>
   </head>
-  <body class="bg-black">
+  <body>
     <div class="cursor" data-cursor></div>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-black fixed-top p-4">
+    <nav class="navbar navbar-expand-lg fixed-top p-4">
       <div class="container">
         <a href="#" class="navbar-brand n fs-1 fw-bolder h1">Rimshad</a>
         <button
@@ -160,10 +32,10 @@
           data-bs-target="#offcanvasNavbar"
           aria-controls="offcanvasNavbar"
         >
-          <span class="text-white"><i class="bi bi-three-dots"></i></span>
+          <span><i class="bi bi-three-dots"></i></span>
         </button>
         <div
-          class="offcanvas bg-black offcanvas-end"
+          class="offcanvas offcanvas-end"
           id="offcanvasNavbar" data-bs-scroll="true" tabindex="-1"
         >
         <div class="offcanvas-header">
@@ -187,6 +59,7 @@
             <li class="nav-item">
               <a class="nav-link fs-5" href="#contact">Contact</a>
             </li>
+            <img src="sun.png" class="nav-link fs-5 mt-1" id="icon">
           </ul>
         </div>
         </div>
@@ -213,7 +86,7 @@
               >
                 Hello, I'm
               </h6>
-              <h3 class="n" style="font-size: 30px; font-weight: 700">Rimshad <span class="text-white">Ahamed</span></h3>
+              <h3 class="n" style="font-size: 30px; font-weight: 700">Rimshad <span>Ahamed</span></h3>
               <h5
                 class="text-secondary text-center"
                 style="font-size: 40px; font-weight: 700"
@@ -264,7 +137,7 @@
           <h3 class="text-center fw-semibold text-secondary" style="margin-top: 150px">
             Get to know <span class="n">more</span>
           </h3>
-          <h3 class="text-center text-white" style="font-size: 40px; font-weight: 700">
+          <h3 class="text-center" style="font-size: 40px; font-weight: 700">
             About Me
           </h3>
         </div>
@@ -277,7 +150,7 @@
             <img src="4.png" class="d-block w-100" style="height: 50%;" alt="...">
             <div class="carousel-caption col-md-6 col-lg-6 col-sm-6 col-12 mx-auto" style="right: -250px;">
               <h5 class="fw-bold">Fresher <br> Web Developer</h5>
-              <p><small>Hello, I’m Rimshad Ahamed, a passionate and driven web developer dedicated to crafting immersive digital experiences through innovative web applications. With a fervor for technology and a relentless pursuit of excellence, I embark on each project fueled by a desire to create impactful solutions and the prerten out of my knowladge in thins field to day i was making the potfolio to my self introduce the others</small></p>
+              <p class="text-white"><small>Hello, I’m Rimshad Ahamed, a passionate and driven web developer dedicated to crafting immersive digital experiences through innovative web applications. With a fervor for technology and a relentless pursuit of excellence, I embark on each project fueled by a desire to create impactful solutions and the prerten out of my knowladge in thins field to day i was making the potfolio to my self introduce the others</small></p>
             </div>
           </div>
       </div>
@@ -291,7 +164,7 @@
           <h3 class="text-center fw-semibold text-secondary" style="margin-top: 150px">
             <span class="n">Explore</span> My
           </h3>
-          <h3 class="text-center text-white" style="font-size: 40px; font-weight: 700">
+          <h3 class="text-center" style="font-size: 40px; font-weight: 700">
             Education / Qualification
           </h3>
         </div>
@@ -302,19 +175,19 @@
         <div class="row">
           <div class="col-md-6 mt-3">
             <div class="details-container">
-                <h3 class="text-white fw-bold">Education</h5>
-                  <li class="nav-link fw-bold text-white"><p><i class="bi bi-asterisk"></i> Software Engineering In Computing</p></li>
-                  <li class="nav-link fw-bold text-white"><p><i class="bi bi-asterisk"></i> Esoft Metro Campus</p></li>
+                <h3 class= fw-bold">Education</h5>
+                  <li class="nav-link fw-bold"><p><i class="bi bi-asterisk"></i> Software Engineering In Computing</p></li>
+                  <li class="nav-link fw-bold"><p><i class="bi bi-asterisk"></i> Esoft Metro Campus</p></li>
             </div>
           </div>
           <div class="col-md-6 mt-3">
             <div class="details-container">
-              <h3 class="text-white fw-bold">Languages & Frameworks</h5>
-                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> PHP</p></li>
-                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> CSS</p></li>
-                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> HTML</p></li>
-                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> Bootstrap</p></li>
-                <li class="nav-link text-center fw-bold text-white"><p><i class="bi bi-asterisk"></i> JAvascript</p></li>
+              <h3 class= fw-bold">Languages & Frameworks</h5>
+                <li class="nav-link text-center fw-bold"><p><i class="bi bi-asterisk"></i> PHP</p></li>
+                <li class="nav-link text-center fw-bold"><p><i class="bi bi-asterisk"></i> CSS</p></li>
+                <li class="nav-link text-center fw-bold"><p><i class="bi bi-asterisk"></i> HTML</p></li>
+                <li class="nav-link text-center fw-bold"><p><i class="bi bi-asterisk"></i> Bootstrap</p></li>
+                <li class="nav-link text-center fw-bold"><p><i class="bi bi-asterisk"></i> JAvascript</p></li>
             </div>
           </div>
         </div>
@@ -330,7 +203,7 @@
           <h5 class="text-center fw-semibold n" style="margin-top: 150px">
             Browse My Recent
           </h5>
-          <h1 class="text-center text-white" style="font-size: 40px; font-weight: 600">
+          <h1 class="text-center" style="font-size: 40px; font-weight: 600">
             Project
           </h1>
         </div>
@@ -344,8 +217,8 @@
               <div class="container">
                 <div class="row justify-content-center">
                   <img src="web.png" alt="" class="rounded-5 w-100">
-                  <h3 class="mt-3 text-white fw-bold">Project One</h3>
-                  <h3 class="mt-3 text-white fw-bold">Portfolio</h3>
+                  <h3 class="mt-3 fw-bold">Project One</h3>
+                  <h3 class="mt-3 fw-bold">Portfolio</h3>
                   <div class="col-md-2 col-lg-4 col-2 dflex w-50">
                     <a href="https://github.com/Rimshad01" target="_blank" class="btn bn fw-bold rounded-5 mt-3 ms-4">Github</a>
                   </div>
@@ -361,8 +234,8 @@
               <div class="container">
                 <div class="row justify-content-center">
                   <img src="web3.png" alt="" class="rounded-5 w-100">
-                  <h3 class="mt-3 text-white fw-bold">Project Two</h3>
-                  <h3 class="mt-3 text-white fw-bold">HMS</h3>
+                  <h3 class="mt-3 fw-bold">Project Two</h3>
+                  <h3 class="mt-3 fw-bold">HMS</h3>
                   <div class="col-md-2 col-lg-4 col-2 dflex w-50">
                     <a href="https://github.com/Rimshad01" target="_blank" class="btn bn fw-bold rounded-5 mt-3 ms-4">Github</a>
                   </div>
@@ -378,8 +251,8 @@
               <div class="container">
                 <div class="row justify-content-center">
                   <img src="web2.png" alt="" class="rounded-5 w-100">
-                  <h3 class="mt-3 text-white fw-bold">Project Three</h3>
-                  <h3 class="mt-3 text-white fw-bold">Shopping Cart</h3>
+                  <h3 class="mt-3 fw-bold">Project Three</h3>
+                  <h3 class="mt-3 fw-bold">Shopping Cart</h3>
                   <div class="col-md-2 col-lg-4 col-2 dflex w-50 mt-3">
                     <a href="https://github.com/Rimshad01" target="_blank" class="btn bn fw-bold rounded-5 ms-5">Github</a>
                   </div>
@@ -401,7 +274,7 @@
           <h5 class="text-center fw-semibold text-secondary" style="margin-top: 150px">
             Get in Thouch
           </h5>
-          <h1 class="text-center text-white" style="font-size: 40px; font-weight: 600">
+          <h1 class="text-center" style="font-size: 40px; font-weight: 600">
             Contact <span class="n">Me</span>
           </h1>
         </div>
@@ -429,7 +302,7 @@
       <div class="col-md-12 mt-3">
         <div class="container">
           <div class="row">
-            <p class="text-white text-center">Copyright &#169; 2023 Rimshad Ahamed. All Rights Reserved.</p>
+            <p class="text-center">Copyright &#169; 2023 Rimshad Ahamed. All Rights Reserved.</p>
             </div>
         </div>
       </div>

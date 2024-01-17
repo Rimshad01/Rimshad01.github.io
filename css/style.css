@@ -14,10 +14,44 @@ html{
     font-family: 'Great Vibes', cursive;
 }
 
+body{
+    background: var(--primary-color);
+}
+
+.navbar{
+    background: var(--primary-color);
+}
+
+.offcanvas{
+    background: var(--primary-color);
+}
+
+:root{
+    --primary-color: #212121;
+    --secondary-color: #fff;
+    --third-color: #2a2a2a;
+}
+
+.light-theme{
+    --primary-color: #fff;
+    --secondary-color: #212121;
+    --third-color: #f5f5f5;
+}
+
+span{
+    color: var(--secondary-color);
+}
+
+#icon{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
 .cursor{
     width: 60px;
     height: 60px;
-    border: 2px solid hsla(0, 0%, 100%, 0.5);
+    border: 2px solid var(--secondary-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -55,12 +89,149 @@ html{
     display: block;
     height: calc(100% - 15px);
     width: calc(100% - 15px);
-    background-color: #ffffff;
+    background: var(--primary-color);
     border-radius: 50%;
     display: grid;
     place-items: center;
     font-size: 20px;
-    color: #1a1a1a;
+    color: var(--secondary-color);
+}
+
+h3{
+    color: var(--secondary-color);
+}
+
+h1{
+    color: var(--secondary-color);
+}
+
+p{
+    color: var(--secondary-color);
 }
 
 
+.dn {
+    border: 2px solid #6610f2;
+    color: var(--secondary-color);
+  }
+  .dn:hover {
+    background-color: #6610f2;
+    color: var(--secondary-color);
+  }
+
+  .bn {
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+  }
+
+  .bn:hover {
+    background-color: #6610f2;
+    color: var(--secondary-color);
+  }
+
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    height: 17rem;
+  }
+  .details-container2 {
+    padding: 1.5rem;
+    flex: 1;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    height: 35rem;
+  }
+
+  .details-container3 {
+    padding: 1.5rem;
+    flex: 1;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    height: 4.5rem;
+  }
+  
+  .nav-link{
+    color: #585C5E;
+  }
+
+  .nav-link:hover{
+    color: #6610f2;
+    transition: 0.3s ease;
+  }
+
+  .n,.n:hover{
+    color: #6610f2;
+  }
+
+  .b:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #6610f2;
+    color: #6610f2;
+  }
+
+  .b{
+    color: var(--secondary-color);
+  }
+
+  .carousel-caption{
+    margin: 25%;
+  }
+
+  .carousel-caption h5{
+    font-size: 30px;
+  }
+
+  .carousel-caption p small{
+    font-size: 20px;
+  }
+
+  @media (max-width: 800px) {
+    .bb{
+      width: 150px;
+    }
+
+    .ss{
+      font-size: 12px;
+    }
+  }
+
+  .s{
+    color: var(--secondary-color);
+  }
+
+  @media (max-width: 477px) {
+    .carousel-caption{
+    top: -50px;
+    left: -120px;
+  }
+
+  .b{
+    font-size: 10px;
+    margin-top: 4px;
+  }
+
+  .carousel-caption h5{
+    font-size: 16px;
+  }
+
+  .carousel-caption p small{
+    font-size: 12px;
+  }
+
+  .d a{
+    font-size: 12px;
+  }
+
+  .bb{
+    width: 50%;
+  }
+  }

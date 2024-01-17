@@ -27,14 +27,14 @@ body{
 }
 
 :root{
-    --primary-color: #212121;
+    --primary-color: #000106;
     --secondary-color: #fff;
     --third-color: #2a2a2a;
 }
 
 .light-theme{
     --primary-color: #fff;
-    --secondary-color: #212121;
+    --secondary-color: #000106;
     --third-color: #f5f5f5;
 }
 
